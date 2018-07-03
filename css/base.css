@@ -1,13 +1,49 @@
 * {
-    background:rgba(0, 0, 0, .1);
+    /* background:rgba(0, 0, 0, .1); */
+    -webkit-tab-highlight-color: rgba(0,0,0,0);
 }
 
 body {
-    
+    background: #00334b;
+    color: #fff;
 }
 .container
 {
     max-width: 700px;
     margin: 0 auto;
+    position: relative;
+    padding: 0 10px;
 
+}
+
+h1{
+    text-align: center;
+
+}
+
+.task-list{
+
+    margin: 10px 0;
+}
+
+
+.task-item{
+
+    padding: 10px;
+    background: #fff;
+    color: #333;
+    margin-bottom: 2px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 2px 3px rgba(0,0,0,1);
+    box-shadow: 0 2px 3px rgba(0,0,0,.1);
+    cursor: pointer;
+    transition: 0ms; 
+}
+
+
+
+.task-item:hover{
+
+    background: #ddd;
 }
