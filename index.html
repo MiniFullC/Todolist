@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Todo App</title>
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+<!-- 总容器开启 -->
+<div class="container">
+    <div class="add-task">
+        <input type="text">
+        <button>submit</button>
+    </div>
+    <div class="task-list"><!-- 清单列表开始 -->
+        <div class="task-item"><!-- 任务开始 -->
+            <span><input type="checkbox"></span>
+            <span class="task-content">item content 1</span>
+            <span>delete</span>
+            <span>detail</span>
+        </div><!-- 任务结束 -->
+        <div class="task-item">
+            <span>
+                <input type="checkbox">
+            </span>
+            <span class="task-content">item content 1</span>
+            <span>delete</span>
+            <span>detail</span>
+        </div>
+        <div class="task-item">
+            <span>
+                <input type="checkbox">
+            </span>
+            <span class="task-content">item content 1</span>
+            <span>delete</span>
+            <span>detail</span>
+        </div>
+        <div class="task-item">
+            <span><input type="checkbox"></span>
+            <span class="task-content">item content 1</span>
+            <span>delete</span>
+            <span>detail</span>
+        </div>
+    </div>
+    <div class="task-detail"><!-- 任务详情开始 -->
+        <div class="content"></div><!-- 任务标题开始 -->
+        <div><!-- 任务描述开始 -->
+            <div class="desc">
+        </div><!-- 任务描述结束 -->
+    </div>
+    <div class="remind"><!-- 任务定时开始 -->
+        <input type="date">
+        <button class="submit">submit</button>
+    </div><!-- 任务定时结束 -->
+    </div><!-- 任务详情结束 -->
+</div><!-- 总容器结束 -->
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="js/base.js"></script>
+
+</body> 
+</html>
